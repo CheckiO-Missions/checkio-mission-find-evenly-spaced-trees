@@ -1,0 +1,60 @@
+<!-- Describe task in general -->
+
+<p style="text-align: justify;">
+    You have to find evenly spaced trees in a grove.
+</p>
+
+<p>
+    You are given the position of the trees  (a list of integers) as input values.
+    You have to find and return the maximum number of the evenly spaced trees.
+    If the answer is less than or equal to 2, return None.</p>
+
+<!--<strong>NOTE:</strong>-->
+
+<p>
+    <strong>Examples:</strong>
+</p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">
+assert find_evenly_spaced_trees([0, 2, 4, 7]) == 3
+assert find_evenly_spaced_trees([0, 2, 3, 5, 9]) == None
+assert find_evenly_spaced_trees([0, 3, 6, 8, 11, 14, 17]) == 4
+assert find_evenly_spaced_trees([0, 4, 6, 8, 12, 16, 18]) == 5
+</pre>
+
+<p style="text-align: center;">
+    <img title="example_01" src="{{MEDIA}}find_evenly_spaced_trees_examples_01.svg" alt="example_01" style="vertical-align:top; width:200px;"/>
+    <img title="example_02" src="{{MEDIA}}find_evenly_spaced_trees_examples_02.svg" alt="example_02" style="vertical-align:top; width:200px;"/><br/>
+    <img title="example_03" src="{{MEDIA}}find_evenly_spaced_trees_examples_03.svg" alt="example_03" style="vertical-align:top; width:200px;"/>
+    <img title="example_04" src="{{MEDIA}}find_evenly_spaced_trees_examples_04.svg" alt="example_04" style="vertical-align:top; width:200px;"/>
+</p>
+
+
+
+<!-- Explain input and output values -->
+<p>
+    <strong>Input:</strong> The position of the trees (a list of integers).
+</p>
+
+<p>
+    <strong>Output:</strong> The maximum number of the evenly spaced trees (An integer).
+</p>
+
+<!-- The section is optional -->
+<p>
+    <strong>Precondition:</strong>
+    <ul>
+        <li>3 &le; number of trees &le; 80</li>
+        <li>0 &le; position &le; 99</li>
+    </ul>
+</p>
+<!-- Here you can explain how it can be used in development -->
+<!-- The section is optional -->
+<!-- <p class="for_info_only">
+
+    <strong>How it’s used:</strong>
+    <i>(math is used everywhere)</i>
+</p> -->
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
