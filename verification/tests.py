@@ -9,11 +9,10 @@ Each test is a dict with
 
 from random import sample
 from collections import defaultdict
-from typing import Optional
 
 
-def find_evenly_spaced_trees(trees: list[int]) -> Optional[list[list[int]]]:
-    def get_consecutive_numbers(numbers: list[int]) -> list[int]:
+def find_evenly_spaced_trees(trees):
+    def get_consecutive_numbers(numbers):
         temp_numbers = []
         max_numbers = []
         for n in numbers:
