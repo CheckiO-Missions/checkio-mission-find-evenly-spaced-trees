@@ -40,7 +40,7 @@ requirejs(['ext_editor_io2', 'jquery_190', 'raphael_210'],
             /**
              * values
              */
-            const trees = data.in[0]
+            const trees = data.in[0].values
             const answers = data.ext.explanation
             const max_coord = Math.max(...trees)
             const margin_side = 25

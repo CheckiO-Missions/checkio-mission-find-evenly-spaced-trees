@@ -5,25 +5,19 @@
 </p>
 
 <p>
-    You are given the position of the trees  (a list of integers) as input values.
+    You are given the position of the trees  (a <strong>set</strong> of integers) as input values.
     You have to find and return the maximum number of the evenly spaced trees.
     If the answer is less than or equal to 2, return None.</p>
-
-<strong>NOTE:</strong>
-<ul>
-    <li>Input values are sorted.</li>
-    <li>Input values are not duplicated.</li>
-</ul>
 
 <p>
     <strong>Examples:</strong>
 </p>
 
 <pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">
-assert find_evenly_spaced_trees([0, 2, 4, 7]) == 3
-assert find_evenly_spaced_trees([0, 2, 3, 5, 9]) == None
-assert find_evenly_spaced_trees([0, 3, 6, 8, 11, 14, 17]) == 4
-assert find_evenly_spaced_trees([0, 4, 6, 8, 12, 16, 18]) == 5
+assert find_evenly_spaced_trees({0, 2, 4, 7}) == 3
+assert find_evenly_spaced_trees({0, 2, 3, 5, 9}) == None
+assert find_evenly_spaced_trees({0, 3, 6, 8, 11, 14, 17}) == 4
+assert find_evenly_spaced_trees({0, 4, 6, 8, 12, 16, 18}) == 5
 </pre>
 
 <p style="text-align: center;">
@@ -37,7 +31,7 @@ assert find_evenly_spaced_trees([0, 4, 6, 8, 12, 16, 18]) == 5
 
 <!-- Explain input and output values -->
 <p>
-    <strong>Input:</strong> The position of the trees (a list of integers).
+    <strong>Input:</strong> The position of the trees (a <strong>set</strong> of integers).
 </p>
 
 <p>

@@ -2,14 +2,14 @@
 {% block env %}{% endblock env %}
 
 {% block start %}
-def find_evenly_spaced_trees(trees: list[int]) -> int | None:
+def find_evenly_spaced_trees(trees: set[int]) -> int | None:
     # your code here
     return 0
 {% endblock start %}
 
 {% block example %}
 print('Example:')
-print(find_evenly_spaced_trees([0, 2, 3, 6]))
+print(find_evenly_spaced_trees({0, 2, 3, 6}))
 {% endblock %}
 
 # These "asserts" are used for self-checking
