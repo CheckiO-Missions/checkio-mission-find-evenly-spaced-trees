@@ -1,0 +1,58 @@
+<!-- Describe task in general -->
+
+<p style="text-align: justify;">
+    Vous devez trouver des arbres régulièrement espacés dans un bosquet.
+</p>
+
+<p>
+    On vous donne la position des arbres (un <strong>ensemble</strong> d'entiers) comme valeurs d'entrée.
+    Vous devez trouver et renvoyer le nombre maximum d'arbres régulièrement espacés.
+    Si la réponse est inférieure ou égale à 2, vous devez renvoyer None.</p>
+
+<p>
+    <strong>Exemples:</strong>
+</p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">
+assert find_evenly_spaced_trees({0, 2, 4, 7}) == 3
+assert find_evenly_spaced_trees({0, 2, 3, 5, 9}) == None
+assert find_evenly_spaced_trees({0, 3, 6, 8, 11, 14, 17}) == 4
+assert find_evenly_spaced_trees({0, 4, 6, 8, 12, 16, 18}) == 5
+</pre>
+
+<p style="text-align: center;">
+    <img title="example_01" src="{{MEDIA}}find_evenly_spaced_trees_examples_01.svg" alt="example_01" style="vertical-align:top; width:250px;"/>
+    <img title="example_02" src="{{MEDIA}}find_evenly_spaced_trees_examples_02.svg" alt="example_02" style="vertical-align:top; width:250px;"/><br/>
+    <img title="example_03" src="{{MEDIA}}find_evenly_spaced_trees_examples_03.svg" alt="example_03" style="vertical-align:top; width:250px;"/>
+    <img title="example_04" src="{{MEDIA}}find_evenly_spaced_trees_examples_04.svg" alt="example_04" style="vertical-align:top; width:250px;"/>
+</p>
+
+
+
+<!-- Explain input and output values -->
+<p>
+   <strong>Entrée:</strong> La position des arbres (un <strong>ensemble</strong> d'entiers).
+</p>
+
+<p>
+   <strong>Sortie: Le nombre maximum d'arbres régulièrement espacés (un nombre entier ou aucun):</strong> Le nombre maximum d'arbres régulièrement espacés (un entier ou aucun).
+</p>
+
+<!-- The section is optional -->
+<p>
+    <strong>Condition préalable:</strong>
+    <ul>
+        <li>3 &le; nombre d'arbres &le; 80</li>
+        <li>0 &le; position &le; 99</li>
+    </ul>
+</p>
+<!-- Here you can explain how it can be used in development -->
+<!-- The section is optional -->
+<!-- <p class="for_info_only">
+
+    <strong>How it’s used:</strong>
+    <i>(math is used everywhere)</i>
+</p> -->
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
