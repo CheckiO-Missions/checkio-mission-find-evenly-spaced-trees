@@ -1,0 +1,58 @@
+<!-- Describe task in general -->
+
+<p style="text-align: justify;">
+    您必须在小树林中找到间距均匀的树木。
+</p>
+
+<p>
+    输入值是树木的位置（<strong>一组</strong>整数）。
+    您必须找出并返回均匀分布的树木的最大数量。
+    如果答案小于或等于 2，则返回 "无"。</p>
+
+<p>
+    <strong>示例</strong>
+</p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">
+assert find_evenly_spaced_trees({0, 2, 4, 7}) == 3
+assert find_evenly_spaced_trees({0, 2, 3, 5, 9}) == None
+assert find_evenly_spaced_trees({0, 3, 6, 8, 11, 14, 17}) == 4
+assert find_evenly_spaced_trees({0, 4, 6, 8, 12, 16, 18}) == 5
+</pre>
+
+<p style="text-align: center;">
+    <img title="example_01" src="{{MEDIA}}find_evenly_spaced_trees_examples_01.svg" alt="example_01" style="vertical-align:top; width:250px;"/>
+    <img title="example_02" src="{{MEDIA}}find_evenly_spaced_trees_examples_02.svg" alt="example_02" style="vertical-align:top; width:250px;"/><br/>
+    <img title="example_03" src="{{MEDIA}}find_evenly_spaced_trees_examples_03.svg" alt="example_03" style="vertical-align:top; width:250px;"/>
+    <img title="example_04" src="{{MEDIA}}find_evenly_spaced_trees_examples_04.svg" alt="example_04" style="vertical-align:top; width:250px;"/>
+</p>
+
+
+
+<!-- Explain input and output values -->
+<p>
+   <strong>输入</strong>树的位置（<strong>一组</strong>整数）。
+</p>
+
+<p>
+   <strong>输出：</strong>均匀分布的树木的最大数量（一个整数或无）。
+</p>
+
+<!-- The section is optional -->
+<p>
+    <strong>前提条件</strong>
+    <ul>
+        <li>3 &le; 树数 &le; 80</li>
+        <li>0 &le; 位置 &le; 99</li>
+    </ul>
+</p>
+<!-- Here you can explain how it can be used in development -->
+<!-- The section is optional -->
+<!-- <p class="for_info_only">
+
+    <strong>How it’s used:</strong>
+    <i>(math is used everywhere)</i>
+</p> -->
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
